@@ -1,5 +1,5 @@
 
-public class Ships {
+public class Ship {
 
     private String name;
     private int size;
@@ -7,7 +7,7 @@ public class Ships {
     private int locations[][];
     private int hits;
 
-    public Ships(String name, int size, String orientation) {
+    public Ship(String name, int size, String orientation) {
         this.name = name;
         this.size = size;
         this.orientation = orientation;
